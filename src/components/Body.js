@@ -1,6 +1,7 @@
 import React from "react";
 import Profile from "./Profile";
 import PostFeed from "./PostFeed";
+import RecommendedAccounts from "./RecommendedAccounts";
 
 function Body(){
   return (
@@ -13,14 +14,11 @@ function Body(){
           <PostFeed />
         </div>
         <div className="col-3">
-          
+          <RecommendedAccounts />
         </div>
       </div>
     </div>
   );
 }
-
-
-
 
 export default Body;

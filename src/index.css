@@ -38,6 +38,7 @@ code {
 .blueBox {
   display: block;
   margin: 5%;
+  margin-top: 20px;
   margin-bottom: 0%;
   width: 90%;
   height: 150px;
@@ -49,7 +50,7 @@ code {
   border: 3px solid white;
   left: 5%;
   top: 90px;
-  border-radius: 5px;
+  border-radius: 15px;
   background-color: rgb(73, 185, 255);
   width: 80px;
   height: 80px;
@@ -66,9 +67,40 @@ code {
   padding: 10px;
   width: 90%;
   margin: 5%;
+  margin-top: 20px;
   border: 3px solid gray;
 }
 
 .name {
   margin-left: 120px;
+}
+
+.navbarBox {
+  padding: 10px;
+  width: 60%;
+  margin-top: 10px;
+  border: 3px solid gray;
+}
+
+.navbar {
+  margin-top: 10px;
+}
+
+.profileImage {
+  margin-right: 10px;
+  float: left;
+}
+
+.post {
+  margin: 10px;
+  display: inline-block;
+  padding: 5px;
+  border: 5px solid lightskyblue;
+  border-radius: 20px;
+  color: gray;
+}
+
+.postImage {
+  margin-right: 10px;
+  float: left;
 }

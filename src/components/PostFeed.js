@@ -1,5 +1,6 @@
 import React from "react";
 import Post from "./Post";
+import img from '../blank-profile.png';
 
 const newsFeed = [
   {
@@ -15,11 +16,11 @@ const newsFeed = [
   updatePost: "random quotes about stuff that I don't understand"
   },
   {
-  name: "Jason Smith",
+  name: "Felix Conrad",
   updatePost: "random quotes about stuff that I don't understand"
   },
   {
-  name: "Jason Smith",
+  name: "Eric Delaney",
   updatePost: "random quotes about stuff that I don't understand"
   },
 ];
@@ -27,6 +28,8 @@ const newsFeed = [
 function PostFeed(){
   return (
     <div className="about">
+      <img className="postImage" src={img} alt="profile pic" width="45" height="45"/>
+      <h4><span className="post">What's Happening?</span></h4>
       <hr/>
       {newsFeed.map((post, index) =>
       <Post name={post.name}

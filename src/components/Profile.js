@@ -1,11 +1,11 @@
 import React from "react";
-import img from './blank-profile.png';
+import img from '../blank-profile.png';
 
 function Profile() {
   return (
     <React.Fragment>
       <div className="blueBox">
-        <div className="image"><img src={img}alt="profile pic" width="75" height="75"/> </div>
+        <img className="image" src={img} alt="profile pic" width="75" height="75"/>
       </div>
       <div className="profile">
         <h3 className="name"><emp>John Doe</emp></h3>
