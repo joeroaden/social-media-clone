@@ -1,5 +1,6 @@
 import React from "react";
 import Profile from "./Profile";
+import PostFeed from "./PostFeed";
 
 function Body(){
   return (
@@ -9,7 +10,7 @@ function Body(){
           <Profile/>
         </div>
         <div className="col-5">
-          
+          <PostFeed />
         </div>
         <div className="col-3">
           
