@@ -2,7 +2,8 @@ import React from "react";
 
 function Navbar() {
   return (
-    <h1>Home - Notifications - Messages</h1>
+    <h4>Home - Notifications - Messages</h4>
+    // move into boxes?
   );
 }
 
